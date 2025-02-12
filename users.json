@@ -1,0 +1,84 @@
+{
+    "users": {
+        "admin": "0",
+        "smm": "83",
+        "mahsa": "84"
+    },
+    "user_permissions": {
+        "admin":{},
+        
+        "smm": {
+            "delete": [
+                true
+            ],
+            "create": [
+                true
+            ],
+            "/Users/smm/Uni/T5/Network/Prj/phase-02-SMM-JUJU/server.crt": [
+                "read",
+                "write",
+                "delete"
+            ],
+            "/Users/smm/Uni/T5/Network/Prj/phase-02-SMM-JUJU/server.key": [
+                "read",
+                "write",
+                "delete"
+            ],
+            "/Users/smm/Uni/T5/Network/Prj/phase-02-SMM-JUJU/server/server/server.py": [
+                "read",
+                "write",
+                "delete"
+            ],
+            "/Users/smm/Uni/T5/Network/Prj/phase-02-SMM-JUJU/client/client.py": [],
+            "/Users/smm/Uni/T5/Network/test/users.json": [
+                "read",
+                "write",
+                "delete"
+            ],
+            "/Users/smm/Uni/T5/Network/test/serverp.py": [
+                "read",
+                "write",
+                "delete"
+            ],
+            "/Users/smm/Uni/T5/Network/test/clientp.py": [],
+            "/Users/smm/Uni/T5/Network/test/sm.py": [
+                "read",
+                "write",
+                "delete"
+            ],
+            "/Users/smm/Uni/T5/Network/test/new.py": [
+                "read",
+                "write",
+                "delete"
+            ],
+            "/Users/smm/Uni/T5/Network/test/s.py": [
+                "read",
+                "write",
+                "delete"
+            ]
+        },
+        "mahsa": {
+            "delete": [
+                false
+            ],
+            "create": [
+                false
+            ],
+            "/Users/smm/Uni/T5/Network/Prj/phase-02-SMM-JUJU/server.crt": [],
+            "/Users/smm/Uni/T5/Network/Prj/phase-02-SMM-JUJU/server.key": [],
+            "/Users/smm/Uni/T5/Network/Prj/phase-02-SMM-JUJU/server/server/server.py": [],
+            "/Users/smm/Uni/T5/Network/Prj/phase-02-SMM-JUJU/client/client.py": [
+                "read",
+                "write",
+                "delete"
+            ],
+            "/Users/smm/Uni/T5/Network/test/users.json": [],
+            "/Users/smm/Uni/T5/Network/test/serverp.py": [],
+            "/Users/smm/Uni/T5/Network/test/clientp.py": [
+                "read",
+                "write",
+                "delete"
+            ]
+        }
+    }
+}
